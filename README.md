@@ -82,8 +82,9 @@
 El modelo se encuentra normalizado hasta **Tercera Forma Normal (3FN)**:
 
 ###  1NF — Primera Forma Normal
-- Todos los valores son atómicos.  
-- No existen atributos multivalorados ni compuestos.  
+- Cada campo contiene **un único valor**, no listas ni valores repetidos dentro del mismo campo.  
+  *(Ejemplo: “teléfono” contiene un solo número, no varios.)*
+- Todas las filas son distinguibles y cada columna almacena siempre el mismo tipo de información.
 
 ###  2NF — Segunda Forma Normal
 - Las claves primarias son simples.  
