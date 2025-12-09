@@ -25,7 +25,8 @@ FR-05: El sistema permitirá consultar los datos de un cliente a partir de su id
 (Opcional futuro) FR-07: El sistema permitirá eliminar un cliente, siempre que no existan datos dependientes.
 
 
-1.2. Gestión de aparatos
+- Gestión de aparatos
+- 
 FR-08: El sistema permitirá dar de alta nuevos aparatos indicando: nombre, tipo (cardio, fuerza, etc.), estado (activo) e imagen asociada.
 
 
@@ -56,7 +57,8 @@ FR-10: El sistema permitirá consultar si un aparato está ocupado en un momento
 (Opcional futuro) FR-11: El sistema permitirá marcar un aparato como “fuera de servicio”.
 
 
-1.3. Gestión de sesiones / reservas
+Gestión de sesiones / reservas
+
 FR-12: El sistema permitirá crear nuevas sesiones de entrenamiento, asociando un cliente y un aparato, para una fecha y hora de inicio.
 
 
@@ -81,7 +83,8 @@ FR-15: El sistema permitirá listar las sesiones de un día concreto.
 (Opcional) FR-16: El sistema podrá comprobar solapamientos de horarios para evitar reservas simultáneas en el mismo aparato.
 
 
-1.4. Gestión de recibos / pagos
+Gestión de recibos / pagos
+
 FR-17: El sistema permitirá crear nuevos recibos asociados a un cliente, con:
 
 
@@ -124,7 +127,8 @@ FR-22: El sistema permitirá volver a mostrar todos los recibos (pagados y pendi
 FR-23: El sistema permitirá listar los recibos de un cliente concreto.
 
 
-1.5. Interfaz gráfica y persistencia
+Interfaz gráfica y persistencia
+
 FR-24: El sistema dispondrá de una interfaz gráfica (GUI) en Tkinter, con:
 
 
