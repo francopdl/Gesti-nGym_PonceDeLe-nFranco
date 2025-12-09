@@ -26,7 +26,7 @@ FR-05: El sistema permitirá consultar los datos de un cliente a partir de su id
 
 
 - Gestión de aparatos
-- 
+
 FR-08: El sistema permitirá dar de alta nuevos aparatos indicando: nombre, tipo (cardio, fuerza, etc.), estado (activo) e imagen asociada.
 
 
@@ -142,7 +142,7 @@ FR-25: La aplicación se ejecutará en modo pantalla completa, permitiendo salir
 
 
 FR-26: Todos los datos (clientes, aparatos, sesiones y recibos) se almacenarán de forma persistente en una base de datos SQLite (gimnasio.db).
-<br>
+
 
 
 <img width="641" height="1076" alt="Diagrama_Gym" src="https://github.com/user-attachments/assets/f9382fb9-4c0d-4855-8560-066f03528be9" />
