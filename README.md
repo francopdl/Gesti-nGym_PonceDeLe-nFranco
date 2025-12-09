@@ -1,6 +1,6 @@
-# 📌 Requisitos Funcionales del Aplicativo
+#  Requisitos Funcionales del Aplicativo
 
-## 🔹 1.1. Gestión de Clientes
+##  Gestión de Clientes
 
 - **FR-01:** El sistema permitirá dar de alta nuevos clientes, almacenando como mínimo: nombre, email y teléfono.  
 - **FR-02:** El sistema validará que el teléfono solo contenga números (sin letras ni símbolos).  
@@ -12,7 +12,7 @@
 
 ---
 
-## 🔹 1.2. Gestión de Aparatos
+##  Gestión de Aparatos
 
 - **FR-08:** El sistema permitirá dar de alta nuevos aparatos indicando: nombre, tipo (cardio, fuerza, etc.), estado (activo) e imagen asociada.  
 - **FR-09:** El sistema permitirá listar todos los aparatos en una tabla, mostrando:
@@ -27,7 +27,7 @@
 
 ---
 
-## 🔹 1.3. Gestión de Sesiones / Reservas
+##  Gestión de Sesiones / Reservas
 
 - **FR-12:** El sistema permitirá crear nuevas sesiones asociando un cliente y un aparato, indicando fecha y hora de inicio.  
 - **FR-13:** El sistema no permitirá crear una sesión si:
@@ -40,7 +40,7 @@
 
 ---
 
-## 🔹 1.4. Gestión de Recibos / Pagos
+##  Gestión de Recibos / Pagos
 
 - **FR-17:** El sistema permitirá crear nuevos recibos asociados a un cliente, incluyendo:
   - Fecha  
@@ -59,7 +59,7 @@
 
 ---
 
-## 🔹 1.5. Interfaz Gráfica y Persistencia
+##  Interfaz Gráfica y Persistencia
 
 - **FR-24:** La aplicación dispondrá de una GUI en Tkinter con:
   - Menú lateral: *Clientes, Aparatos, Sesiones/Reservas, Recibos, Salir*.  
@@ -69,22 +69,30 @@
 
 ---
 
-# 🧩 Normalización del Modelo de Datos
+<img width="641" height="1076" alt="Diagrama_Gym" src="https://github.com/user-attachments/assets/1137bd20-8c7d-4c5e-b294-3a30b4699660" />
+
+---
+
+<img width="391" height="345" alt="Modelo_E-R_Gy," src="https://github.com/user-attachments/assets/462102b9-140e-4751-b343-68babae4fda9" />
+
+
+---
+#  Normalización del Modelo de Datos
 
 El modelo se encuentra normalizado hasta **Tercera Forma Normal (3FN)**:
 
-### ✔ 1NF — Primera Forma Normal
+###  1NF — Primera Forma Normal
 - Todos los valores son atómicos.  
 - No existen atributos multivalorados ni compuestos.  
 
-### ✔ 2NF — Segunda Forma Normal
+###  2NF — Segunda Forma Normal
 - Las claves primarias son simples.  
 - No existen dependencias parciales.  
 
-### ✔ 3NF — Tercera Forma Normal
+###  3NF — Tercera Forma Normal
 - No hay dependencias transitivas entre atributos no clave.  
 - Cada atributo depende directamente de su clave primaria.  
 
 **Conclusión:**  
-📌 El modelo cumple completamente con **3FN**, adecuado para aplicaciones reales y trabajos académicos.
+ El modelo cumple completamente con **3FN**, adecuado para aplicaciones reales y trabajos académicos.
 
