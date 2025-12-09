@@ -1,7 +1,9 @@
 # GestionGym_PonceDeLeonFranco
 
 Requisitos funcionales del aplicativo
+
 1.1. Gestión de clientes
+
 FR-01: El sistema permitirá dar de alta nuevos clientes, almacenando como mínimo: nombre, email y teléfono.
 
 
