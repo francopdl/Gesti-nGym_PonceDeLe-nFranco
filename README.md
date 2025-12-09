@@ -142,6 +142,7 @@ FR-25: La aplicación se ejecutará en modo pantalla completa, permitiendo salir
 
 
 FR-26: Todos los datos (clientes, aparatos, sesiones y recibos) se almacenarán de forma persistente en una base de datos SQLite (gimnasio.db).
+<br>
 
 
 <img width="641" height="1076" alt="Diagrama_Gym" src="https://github.com/user-attachments/assets/f9382fb9-4c0d-4855-8560-066f03528be9" />
